@@ -1,0 +1,16 @@
+/* Use grouping selectors to style the two buttons */
+
+.clickme
+.no_clickme{
+    font-family: helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.clickme{
+    font-weight: 100;
+    background-color: black;
+}
+
+.no_clickme{
+    background-color: yellow;
+}
