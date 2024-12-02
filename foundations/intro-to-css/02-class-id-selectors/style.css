@@ -7,11 +7,14 @@
     font-family: verdana, DejaVu sans, sans-serif;
 }
 
+.bigfont{font-size: 36px;}
+
 /* Set style for 2nd line/element - '<div1>' container */
 #bigblue {
     color: blue;
     font-size: 36px ;
 }
+
 
 /* Set Style for line 4 >> '<div2>' container */
 #gogreen {
