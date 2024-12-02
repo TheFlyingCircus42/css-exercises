@@ -1,0 +1,20 @@
+/* INTRO TO CSS LESSON 02 */
+/* Add Class and ID Selectors */
+
+/* ADD BACKGROUND COLOUR TO 'p' element (odd numbered elements for this exercise) */
+.oddclass{
+    background-color: #feb7ad;
+    font-family: verdana, DejaVu sans, sans-serif;
+}
+
+/* Set style for 2nd line/element - '<div1>' container */
+#bigblue {
+    color: blue;
+    font-size: 36px ;
+}
+
+/* Set Style for line 4 >> '<div2>' container */
+#gogreen {
+    background-color: #9afd6e;
+    font-weight: bold;
+}
