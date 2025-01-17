@@ -1,6 +1,19 @@
+/* foundations > flex > 02 flex header
+ assignment complete
+ 
+ method:
+ 1. set header to flex display, justify: space between & align content center
+ 2. set ul element to diplay flex / justify: space evenly, align items: centre
+ 3. remove default <li> padding
+ 4. add some <li> padding
+ 5. add gap to <ul>*/
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -9,11 +22,24 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 8px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  margin: 8px;
+
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
 }
 
 a {
@@ -23,3 +49,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
