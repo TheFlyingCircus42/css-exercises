@@ -50,6 +50,7 @@ align-items: center;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
 }
 
 button {
@@ -74,4 +75,11 @@ ul {
   list-style-type: none;
 
   display: flex;
+  justify-content: flex-start;
+  padding-left: 0px;
+
+}
+
+li {
+  margin: 16px;
 }
