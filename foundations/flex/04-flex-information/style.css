@@ -19,9 +19,10 @@ img {
   justify-content: space-between;
 }
 
-.plant1{
+.plant{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* do not edit this footer */
