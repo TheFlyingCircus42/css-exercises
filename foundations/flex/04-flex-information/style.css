@@ -14,8 +14,15 @@ img {
   justify-content: center;
 }
 
+.box {
+  display: flex;
+  justify-content: space-between;
+}
 
-
+.plant1{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* do not edit this footer */
 .footer {
