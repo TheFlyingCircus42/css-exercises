@@ -38,5 +38,12 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  
+}
+
+.left-links{
+  display: flex;
+}
+
+.right-links{
+  display: flex;
 }
